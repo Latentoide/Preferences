@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Mi Categoria">
+        <EditTextPreference
+            android:defaultValue="Default value"
+            android:key="edit_text"
+            android:selectAllOnFocus="true"
+            android:inputType="number"
+            android:singleLine="true"
+            android:title="Edit text preference" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="check_box"
+            android:title="Check box preference" />
+    </PreferenceCategory>
+
+    <ListPreference
+        android:defaultValue="standard"
+        android:entries="@array/unidades_entries"
+        android:entryValues="@array/unidades_values"
+        android:title="Unidades"
+        android:key="unidades"
+        />
+
+</PreferenceScreen>

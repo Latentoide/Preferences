@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ajustes</string>
+    <string name="setting">Settings</string>
+    <string name="exit">Exit</string>
+    <string name="standard">Standard</string>
+    <string name="metric">Metrico</string>
+    <string name="imperial">Imperial</string>
+</resources>
